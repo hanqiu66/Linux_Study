@@ -1,0 +1,1 @@
+savedcmd_char_driver_i.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack   --build-id=sha1  -T /home/uuu/linux/scripts/module.lds -o char_driver_i.ko char_driver_i.o char_driver_i.mod.o .module-common.o
